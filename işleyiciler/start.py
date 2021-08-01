@@ -41,23 +41,23 @@ botun komutlarının tam listesini görmek için! » 🎛 <b>Komutlar</b> düğm
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Beni Grubunuza Ekleyin ➕", url="t.me/GoodVibeesBot?startgroup=true")
+                        "➕ Beni Grubunuza Ekleyin ➕", url="t.me/ReislerMuzikBot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "🎛️ Komutlar", url="https://telegra.ph/GoodVibesMusic-05-12"
+                        "🎛️ Komutlar", url="https://telegra.ph/file/c7b9b1cdcade78b30eeb9.jpg"
                     ),
                     InlineKeyboardButton(
-                        "👑Sahibim👑", url="https://t.me/Poyraz2103")
+                        "👑Sahibim👑", url="https://t.me/kizilsancaksahibi")
                     ],[
                     InlineKeyboardButton(
-                        "Müzik Kanalım🎵", url="https://t.me/Fmsarkilar"
+                        "Müzik Kanalım🎵", url="https://t.me/solofej"
                     ),
                     InlineKeyboardButton(
-                        "Assistanım🎼", url="https://t.me/GoodVibeesMusic"
+                        "Assistanım🎼", url="ReislerMuzikAsistan"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "👑Boz Kürt👑", url="https://t.me/sarlockHolmes"
+                        "👑 SUPPORT GRUBU 👑", url="https://t.me/sancakailesi"
                     )]
             ]
         ),
@@ -76,7 +76,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Müzik Kanalım🎵", url="https://t.me/Fmsarkilar"
+                        "Müzik Kanalım🎵", url="https://t.me/solofej"
                     )
                 ],    
                 [    
@@ -122,7 +122,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Müzik Kanalım🎵", url="https://t.me/Fmsarkilar"
+                        "Müzik Kanalım🎵", url="https://t.me/solofej"
                     )
                 ]
             ]
