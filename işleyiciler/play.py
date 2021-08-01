@@ -342,7 +342,7 @@ async def m_cb(b, cb):
                 await cb.answer('Sohbet bağlı değil veya zaten oynatılıyor', show_alert=True)
         else:
             callsmusic.pytgcalls.resume_stream(chat_id)
-            await cb.answer('Müzik Devam Ettirildi!')     
+            await cb.answer('Müzik Devam Ettirildi @Sancakailesi !')     
     elif type_ == 'puse':         
         if (
             chat_id not in callsmusic.pytgcalls.active_calls
@@ -453,7 +453,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @GoodVibeesMusic'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @ReislerMuzikAsistan'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
@@ -466,7 +466,7 @@ async def play(_, message: Message):
         return     
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
-    await lel.edit("🔎 **Bulunuyor**")
+    await lel.edit("🔎 **Bulunuyorum Reis**")
     sender_id = message.from_user.id
     user_id = message.from_user.id
     sender_name = message.from_user.first_name
@@ -477,7 +477,7 @@ async def play(_, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    await lel.edit("🎵 **İşleniyor**")
+    await lel.edit("🎵 **İşleniyor Reis**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -493,7 +493,7 @@ async def play(_, message: Message):
         views = results[0]["views"]
 
     except Exception as e:
-        await lel.edit("Şarkı bulunamadı. Başka bir şarkı deneyin veya belki doğru şekilde heceleyin.")
+        await lel.edit("Şarkı bulunamadı. Başka bir şarkı deneyin veya belki doğru şekilde heceleyin Hata için iletişim @SancakAilesi.")
         print(str(e))
         return
 
@@ -571,7 +571,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "GoodVibeesMusic"
+        user.first_name =  "ReislerMuzik"
     usar = user
     wew = usar.id
     try:
@@ -601,7 +601,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @GoodVibeesMusic'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @ReislerMuzikAsistan'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
@@ -666,7 +666,7 @@ async def deezer(client: Client, message_: Message):
         qeue.append(appendable)
         await res.edit_text(f"♪ Good Vibes Music ♪= #️⃣ {position} konumunda sıraya alındı")
     else:
-        await res.edit_text("♪ Good Vibes Music ♪=▶️ Çalınıyor.....")
+        await res.edit_text("♪ Good Vibes Music ♪=▶️ Çalınıyor Reis.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -731,7 +731,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Taşkın Hata bekleyin 🔴 \nKullanıcı {user.first_name} nedeniyle userbot ağır isteklerine gruba katılmak olamazdı! emin kullanıcı grubunda yasaklı olmadığından emin olun."
-                                  "\n\nVeya @GoodVibeesMusic'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                                  "\n\nVeya @ReislerMuzikAsistan'ı Grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                               )
                               pass
     try:
