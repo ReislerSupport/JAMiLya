@@ -1,11 +1,11 @@
-<h1 align="centre">GoodVibesMusic 🎵</h1>
+<h1 align="centre">ReislerMuzik 🎵</h1>
 
 ### Telegram grubunun sesli Sohbetinde müzik çalabilen bir bot
 
-### Bu music botunun 2. sürümü [GoodVibesMusic]
+### Bu music botunun 2. sürümü [ReislerMuzik]
 
 <p align="center">
-  <img src="https://telegra.ph/file/810ec0867be11dd1ed348.png">
+  <img src="https://telegra.ph/file/c7b9b1cdcade78b30eeb9.jpg">
 </p>
 
 
@@ -14,11 +14,11 @@
 Heroku'ya dağıtmaya tıklamadan önce çatalı ve hemen altındaki yıldıza tıklayın.
 
 <p align="center">
-  <a href="https://github.com/matesa/GoodVibesMusic/fork">
+  <a href="https://github.com/ReislerSupport/JAMiLya/fork">
     <img src="https://img.shields.io/github/forks/matesa/GoodVibesMusic?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/matesa/GoodVibesMusic">
+  <a href="https://github.com/ReislerSupport/JAMiLya">
     <img src="https://img.shields.io/github/stars/matesa/GoodVibesMusic?style=social">
   </a>
 </p>
